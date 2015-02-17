@@ -12,4 +12,5 @@ Currently, parameters are hard-coded. If the images (and the generated video-seq
 
 
 [1] http://en.wikipedia.org/wiki/Screen_burn-in
+
 [2] https://www.ffmpeg.org/
