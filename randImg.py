@@ -59,6 +59,7 @@ def main(args):
 		cmd = "ffmpeg -framerate 60 -i b%0" + str(numdigits) + "d.png " \
 			+ "-s " + str(width) + "x" + str(height) + " " \
 			+ "-pix_fmt yuv420p -preset slow -crf 20 " \
+			+ "-profile:v high -level 4.0 " \
 			+ "video.mp4"
 		p = subprocess.Popen(cmd, shell=True, stderr=subprocess.PIPE)
 		while True:
